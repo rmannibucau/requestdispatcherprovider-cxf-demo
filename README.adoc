@@ -1,0 +1,12 @@
+= How to run
+
+[source]
+----
+mvn compile tomee-embedded:run
+----
+
+Then go on http://localhost:8080/books/Test
+
+== Configuration
+
+Check `src/main/webapp/WEB-INF` and in particular `openejb-jar.xml` and `resources.xml`.
